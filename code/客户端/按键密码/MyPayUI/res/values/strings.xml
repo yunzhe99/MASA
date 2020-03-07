@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">客户端</string>
+    <string name="app_name">按键识别</string>
+    <string name="localip">127.0.0.1</string>
+    <string name="serverip">填入服务器IP</string>
+    <string name="rootlist">根目录</string>
+    <string name="uplist">上层目录</string>
+    <string name="ok">完成</string>
+    <string name="texthint">这里显示文本</string>
+    <string name="conn">连接到服务器</string>
+    <string name="breaktrans">断开连接</string>
+    <string name="choosefile">选择文件</string>
+    <string name="send">发送</string>
+    <string name="filename">文件名:</string>
+    <string name="status">状态:</string>
+    <string name="connsuccess">连接成功</string>
+    <string name="connlocal">连接至本地服务器</string>
+    <string name="connserver">连接服务器</string>
+    <string name="connfailed">连接失败，请检查网络</string>
+    <string name="inputip">输入服务器IP</string>
+    <string name="unconn">未连接</string>
+	<string name="wait">等待</string>
+	<string name="conning">正在连接...</string>
+	<string name="connbreak">与服务器断开连接</string>
+	<string name="transcomplete">传输完成</string>
+	<string name="wifiable">Wifi可用</string>
+	<string name="wifiunable">Wifi不可用</string>
+	<string name="checknet">请检查网络</string>
+</resources>

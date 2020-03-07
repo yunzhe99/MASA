@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="安卓多因素身份认证系统"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/serverid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:text="服务器ip: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <EditText
+        android:id="@+id/serverip"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+         />
+
+    <TextView
+        android:id="@+id/serverpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="端口: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+    <EditText
+        android:id="@+id/serverport"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+        android:text="12345"/>
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="用户id:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp" />
+    <!--
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="密码:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp" />
+     -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/record_user_button"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="信息录入" />
+
+            <Button
+                android:id="@+id/check_user_button"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="用户登录" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/show_thing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="欢迎使用" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

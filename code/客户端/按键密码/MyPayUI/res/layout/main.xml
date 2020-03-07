@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/mSv"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.51" >
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/texthint" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_conn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conn" />
+
+    <Button
+        android:id="@+id/btn_break"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/breaktrans"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/browseFiles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choosefile"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="260dp"
+        android:layout_height="252dp"
+        android:layout_gravity="center" >
+    </ListView>
+
+</LinearLayout>
